@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="Chrome"/>
+  <test name="Chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.gqmaps.Login">
+        <methods>
+          <include name="monitor"/>
+          <include name="tearsDown"/>
+          <include name="driverClass"/>
+          <include name="compute"/>
+          <include name="virtual"/>
+        </methods>
+      </class> <!-- com.gqmaps.Login -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

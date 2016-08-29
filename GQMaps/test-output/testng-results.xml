@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="372748" started-at="2016-08-26T10:59:12Z" finished-at="2016-08-26T11:05:25Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="372748" started-at="2016-08-26T10:59:12Z" finished-at="2016-08-26T11:05:25Z">
+      <class name="com.gqmaps.Login">
+        <test-method status="PASS" signature="driverClass()[pri:0, instance:com.gqmaps.Login@23d26752]" name="driverClass" is-config="true" duration-ms="2593" started-at="2016-08-26T16:29:12Z" finished-at="2016-08-26T16:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClass -->
+        <test-method status="PASS" signature="loginValidation()[pri:1, instance:com.gqmaps.Login@23d26752]" name="loginValidation" duration-ms="3383" started-at="2016-08-26T16:29:15Z" finished-at="2016-08-26T16:29:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method status="PASS" signature="menus()[pri:2, instance:com.gqmaps.Login@23d26752]" name="menus" duration-ms="141650" started-at="2016-08-26T16:29:18Z" finished-at="2016-08-26T16:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menus -->
+        <test-method status="PASS" signature="monitor()[pri:3, instance:com.gqmaps.Login@23d26752]" name="monitor" duration-ms="69978" started-at="2016-08-26T16:31:40Z" finished-at="2016-08-26T16:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- monitor -->
+        <test-method status="PASS" signature="virtual()[pri:4, instance:com.gqmaps.Login@23d26752]" name="virtual" duration-ms="34468" started-at="2016-08-26T16:32:50Z" finished-at="2016-08-26T16:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- virtual -->
+        <test-method status="PASS" signature="dashboard()[pri:5, instance:com.gqmaps.Login@23d26752]" name="dashboard" duration-ms="32382" started-at="2016-08-26T16:33:25Z" finished-at="2016-08-26T16:33:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboard -->
+        <test-method status="PASS" signature="compute()[pri:6, instance:com.gqmaps.Login@23d26752]" name="compute" duration-ms="85768" started-at="2016-08-26T16:33:57Z" finished-at="2016-08-26T16:35:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compute -->
+        <test-method status="PASS" signature="tearsDown()[pri:0, instance:com.gqmaps.Login@23d26752]" name="tearsDown" is-config="true" duration-ms="2420" started-at="2016-08-26T16:35:23Z" finished-at="2016-08-26T16:35:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsDown -->
+      </class> <!-- com.gqmaps.Login -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
