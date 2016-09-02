@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.gqmaps.Login">
+        <methods>
+          <include name="menus"/>
+          <include name="monitor"/>
+          <include name="loginValidation"/>
+          <include name="dashboard"/>
+          <include name="driverClass"/>
+          <include name="compute"/>
+          <include name="testSetUp"/>
+          <include name="virtual"/>
+        </methods>
+      </class> <!-- com.gqmaps.Login -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
